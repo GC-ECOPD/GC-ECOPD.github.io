@@ -36,11 +36,12 @@
     }
 
     .content-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2em;
-      justify-content: space-between;
-    }
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: space-between;
+  align-items: center; /* this centers image vertically */
+}
 
     .abstracts {
       flex: 2;
@@ -72,10 +73,11 @@
     }
 
     .image-section {
-      flex: 1;
-      min-width: 250px;
-      text-align: center;
-    }
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+  margin: auto 0; /* vertical centering in flex layout */
+}
 
     .image-section img {
       max-width: 100%;
